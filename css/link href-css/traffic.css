@@ -86,8 +86,24 @@ footer {
 .social-navigation a:last-child {
 	margin-right: 0px;
 }
-
+#singlebutton{
+	color: #efefef;
+    background-color: #222222;
+    border-color: #222222;
+}
+#singlebutton:HOVER{
+	color: #efefef;
+    background-color: #222222;
+    border-color: #222222;
+}
 /* .social-navigation a:hover {
 	background: #fff;
 	color: #181818;
 } */
+.filter {
+	background-color: #efefef;
+}
+
+.filter-inner {
+	margin-top: 15px;
+}
