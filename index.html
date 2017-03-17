@@ -1,170 +1,170 @@
-<!DOCTYPE html>
-<html lang="en">
+	<!DOCTYPE html>
+	<html lang="en">
 
-<head>
+	<head>
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-	<title>Homepage</title>
+		<title>Homepage</title>
 
-	<!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-	<!-- Custom CSS -->
-	<link href="css/traffic.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="css/traffic.css" rel="stylesheet">
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+	        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
 
-</head>
+	</head>
 
-<body>
-	<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Traffic Data</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container -->
+		</nav>
+		<!-- Page Content -->
+
+		<div class='filter'>
+			<div class='container'>
+				<div class='row'>
+					<div class='filter-inner clearfix'>
+						<div class='col-md-12'>
+							<form class="form-horizontal">
+								<fieldset>
+
+									<!-- <legend>Form Name</legend> -->
+
+									<!-- Text input-->
+									<div class="form-group">
+										<!-- <label class="col-md-4 control-label" for="textinput"></label> -->
+										<div class="col-md-4">
+											<input id="textinput" name="textinput" type="text" placeholder="Enter Search Query" class="form-control input-md">
+											<span class="help-block">Write the search query and hit search button</span>
+										</div>
+										<!-- Button -->
+										<!-- <label class="col-md-4 control-label" for="singlebutton">Single	Button</label> -->
+										<div class="col-md-4">
+											<button id="singlebutton" name="singlebutton" class="btn btn-primary">Search</button>
+										</div>
+										<div class="col-md-2">
+											<select id="selectbasic" name="selectbasic1" class="form-control">
+												<option value="1">Option one</option>
+												<option value="2">Option two</option>
+											</select>
+											<span class="help-block" for="selectbasic1">Filter Two</span>
+										</div>
+										<div class="col-md-2">
+											<select id="selectbasic" name="selectbasic2" class="form-control">
+												<option value="1">Option one</option>
+												<option value="2">Option two</option>
+											</select>
+											<span class="help-block" for="selectbasic2">Filter Two</span>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Traffic Data</a>
+
+			<div class="row">
+
+				<div class="col-md-12">
+					<div class="row carousel-holder">
+
+						<div class="col-md-12">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Query Type</th>
+										<th>Post Date</th>
+										<th>Lang</th>
+										<th>Post Text</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>TB - Monthly</td>
+										<td>01/04/2012</td>
+										<td>Default</td>
+										<td>Default</td>
+									</tr>
+
+								</tbody>
+							</table>
+
+						</div>
+
+					</div>
+
+
+				</div>
+
 			</div>
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
+
 		</div>
 		<!-- /.container -->
-	</nav>
-	<!-- Page Content -->
 
-	<div class='filter'>
-		<div class='container'>
-			<div class='row'>
-				<div class='filter-inner clearfix'>
-					<div class='col-md-12'>
-						<form class="form-horizontal">
-							<fieldset>
+		<div class="container">
 
-								<!-- <legend>Form Name</legend> -->
 
-								<!-- Text input-->
-								<div class="form-group">
-									<!-- <label class="col-md-4 control-label" for="textinput"></label> -->
-									<div class="col-md-4">
-										<input id="textinput" name="textinput" type="text" placeholder="Enter Search Query" class="form-control input-md">
-										<span class="help-block">Write the search query and hit search button</span>
-									</div>
-									<!-- Button -->
-									<!-- <label class="col-md-4 control-label" for="singlebutton">Single	Button</label> -->
-									<div class="col-md-4">
-										<button id="singlebutton" name="singlebutton" class="btn btn-primary">Search</button>
-									</div>
-									<div class="col-md-2">
-										<select id="selectbasic" name="selectbasic1" class="form-control">
-											<option value="1">Option one</option>
-											<option value="2">Option two</option>
-										</select>
-										<span class="help-block" for="selectbasic1">Filter Two</span>
-									</div>
-									<div class="col-md-2">
-										<select id="selectbasic" name="selectbasic2" class="form-control">
-											<option value="1">Option one</option>
-											<option value="2">Option two</option>
-										</select>
-										<span class="help-block" for="selectbasic2">Filter Two</span>
-									</div>
-								</div>
-							</fieldset>
-						</form>
 
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-
-		<div class="row">
-
-			<div class="col-md-12">
-				<div class="row carousel-holder">
-
+			<!-- Footer -->
+			<footer>
+				<div class="row">
 					<div class="col-md-12">
-						<table class="table table-hover">
-							<thead>
-								<tr>
-									<th>#</th>
-									<th>Query Type</th>
-									<th>Post Date</th>
-									<th>Lang</th>
-									<th>Post Text</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>1</td>
-									<td>TB - Monthly</td>
-									<td>01/04/2012</td>
-									<td>Default</td>
-									<td>Default</td>
-								</tr>
 
-							</tbody>
-						</table>
-
+						<div class="social-navigation">
+							<a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i
+								class="fa fa-linkedin-square"></i></a> <a href="#"><i
+								class="fa fa-google"></i></a>
+						</div>
 					</div>
-
 				</div>
-
-
-			</div>
+			</footer>
 
 		</div>
+		<!-- /.container -->
 
-	</div>
-	<!-- /.container -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
 
-	<div class="container">
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
 
+	</body>
 
-
-		<!-- Footer -->
-		<footer>
-			<div class="row">
-				<div class="col-md-12">
-
-					<div class="social-navigation">
-						<a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i
-							class="fa fa-facebook"></i></a> <a href="#"><i
-							class="fa fa-google"></i></a>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-	</div>
-	<!-- /.container -->
-
-	<!-- jQuery -->
-	<script src="js/jquery.js"></script>
-
-	<!-- Bootstrap Core JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+	</html>
